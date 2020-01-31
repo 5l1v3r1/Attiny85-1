@@ -2,4 +2,5 @@
 DNS.ino = Blocks Major Websites  
 Format.ino = Formats C,D,E and F drive on Windows  
 Reverse_TCP.ino + Windows.ps1 = Generates Reverse Shell on Windows  
-WifiKey.ino = Steals Wifi Password and send it to hacker through webhook.
+WifiKey.ino = Steals Wifi Password and send it to hacker through webhook.  
+Windows Crasher = Crash Windows even after ejecting Attiny85
