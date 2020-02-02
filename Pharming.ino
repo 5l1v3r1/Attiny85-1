@@ -15,7 +15,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_N);
   DigiKeyboard.delay(200);
   DigiKeyboard.print("cmd /k mode con: cols=15 lines=1");
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_SPACE);
