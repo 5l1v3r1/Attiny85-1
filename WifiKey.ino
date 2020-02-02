@@ -8,13 +8,12 @@ void loop() {
   DigiKeyboard.update();
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(2000);
- 
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); //run
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(200);
   DigiKeyboard.println("cmd /k mode con: cols=15 lines=1"); //smallest cmd window possible
   DigiKeyboard.delay(500);
-  DigiKeyboard.delay(500);
-  DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_ALT_LEFT); //Menu  
+  DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_ALT_LEFT); //Menu 
+  DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_M); //goto Move
   for(int i =0; i < 100; i++)
     {
