@@ -18,7 +18,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_TAB); 
   DigiKeyboard.sendKeyStroke(KEY_SPACE);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(200);
+  DigiKeyboard.delay(500);
   DigiKeyboard.println("taskkill /IM \"taskmgr.exe\" /F ");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_ALT_LEFT); //Menu  
