@@ -14,7 +14,7 @@ void loop() {
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_N);
   DigiKeyboard.delay(200);
-  DigiKeyboard.print("cmd /k mode con: cols=15 lines=1");
+  DigiKeyboard.print("powershell -noexit -command \"mode con cols=18 lines=1\"");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_TAB);
   DigiKeyboard.delay(200);
